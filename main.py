@@ -5,7 +5,7 @@ def prime_number_checker(number_to_check):
             prime_number = False
     return prime_number
 
-number_to_check = int(input("Type the number you want to check if tis is a prime number: "))
+number_to_check = int(input("Type the number you want to check if it's a prime number: "))
 if prime_number_checker(number_to_check) == True:
     print("It's a prime number.")
 else:
